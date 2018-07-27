@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.background_style {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url(http://i.imgur.com/b9r5sEL.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.keyboard_style {
+  transition: all 0.05s;
+  text-align: center;
+  width: 8vw;
+  /* outline: 5px solid #000; */
+  box-shadow: 0 0 0px 5px #000;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 0;
+  margin: 1vw;
+}
+
+h1 {
+  line-height: 1.2;
+  margin: 0;
+  font-size: 36px;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  color: yellow;
+}
+
+.keyboard_touch {
+  transform: scale(1.1);
+  /* font-size: 1.5em; */
+  box-shadow: 0 0 5px 10px yellow;
+}
