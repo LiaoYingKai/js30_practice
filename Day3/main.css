@@ -31,7 +31,7 @@ html, body {
 }
 
 .title span {
-  color: var(--color);
+  color: yellow;
 }
 
 .adjustment_bar {
@@ -52,7 +52,7 @@ html, body {
 }
 
 img {
-  padding: var(--space);
-  filter: blur(var(--blur));
-  background-color: var(--color);
+  padding: 10px;
+  filter: blur(10px);
+  background-color: yellow;
 }
