@@ -1,0 +1,58 @@
+:root {
+  --color: yellow;
+  --blur: 10px;
+  --space: 10px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.background_style {
+  height: 100%;
+  width: 100%;
+  background-color: #193549;
+  color: #fff;
+  text-align: center;
+}
+
+.title {
+  padding: 30px 0;
+}
+
+.title p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.title span {
+  color: var(--color);
+}
+
+.adjustment_bar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 48px;
+  margin: 30px 0;
+}
+
+.adjustment_bar p {
+  padding: 0 20px;
+}
+
+.img_box {
+  display: inline-block;
+  /* border: 10px solid yellow; */
+}
+
+img {
+  padding: var(--space);
+  filter: blur(var(--blur));
+  background-color: var(--color);
+}
