@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.background_style {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  background-color: yellow;
+  font-family: sans-serif;
+}
+
+input {
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+}
+
+ul {
+  font-size: 24px;
+  /* text-decoration-style: none; */
+  text-decoration: none;
+  list-style: none;
+}
+
+li {}
