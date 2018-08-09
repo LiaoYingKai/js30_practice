@@ -1,0 +1,38 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background_style {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video_schedule {
+  width: 0%;
+  background: #ffc600;
+  height: 20px;
+}
+
+.video_bar {
+  cursor: pointer;
+}
+
+.play_button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+  padding: 0;
+}
