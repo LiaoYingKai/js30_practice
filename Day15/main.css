@@ -1,0 +1,81 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.background_style {
+  height: 100%;
+  width: 100%;
+  background-image: url(http://wes.io/hx9M/oh-la-la.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+svg {
+  fill: white;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+.input_container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.input_item {
+  display: flex;
+}
+
+h1 {
+  padding-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  padding: 10px 0;
+  font-size: 28px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]+label:before {
+  content: '⬜️';
+  margin-right: 10px;
+}
+
+input[type="checkbox"]:checked+label:before {
+  content: '🌮';
+}
+
+input[type="text"] {
+  padding: 10px 5px;
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  margin-left: 10px;
+  font-size: 20px;
+}
