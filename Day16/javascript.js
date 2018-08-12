@@ -3,6 +3,7 @@ var text = hero.querySelector("h1");
 var walk = 500;
 
 function shadow(e) {
+  console.log(e);
   let width = hero.offsetWidth;
   let height = hero.offsetHeight;
   let x = e.offsetX;
