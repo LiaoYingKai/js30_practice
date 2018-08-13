@@ -43,7 +43,7 @@ a {
 }
 
 .highlight {
-  opacity: 0.5;
+  opacity: 0.4;
   transition: all 0.2s;
   border-bottom: 2px solid white;
   position: absolute;

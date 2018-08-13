@@ -9,8 +9,6 @@ function highlineLink() {
   highlight.style.height = `${link.height}px`;
   highlight.style.width = `${link.width}px`;
   highlight.style.transform = `translate(${link.left+window.scrollX}px,${link.top+window.scrollY}px)`;
-  // highlight.style.transform = `translate(${link.left}px,${link.top}px)`;
-
 
 }
 
