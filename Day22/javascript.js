@@ -12,4 +12,4 @@ function highlineLink() {
 
 }
 
-trigger.forEach(item => item.addEventListener("mouseenter", highlineLink));
+trigger.forEach(item => item.addEventListener("mousemove", highlineLink));

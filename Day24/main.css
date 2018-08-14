@@ -1,0 +1,83 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #eeeeee;
+}
+
+.header {
+  height: 50vh;
+  background: url(http://wes.io/iEgP/wow-so-deep.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 84px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.nav {
+  font-family: sans-serif;
+}
+
+.fixed_nav .nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.fixed_nav .nav .logo {
+  display: block;
+  width: 300px;
+}
+
+ul {
+  list-style: none;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  text-align: center;
+}
+
+ul li a {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  padding: 30px 50px;
+  display: inline-block;
+}
+
+.nav .logo {
+  text-align: center;
+  width: 0;
+  transition: all 1s;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 0
+}
+
+.logo a {
+  font-size: 28px;
+  color: #000;
+}
+
+.content {
+  width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 0 35px 0px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 20px;
+}
