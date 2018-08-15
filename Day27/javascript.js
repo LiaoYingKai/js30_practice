@@ -1,13 +1,13 @@
 let silder = document.querySelector(".items");
-let scroll_x;
-let start_x;
+let silder_scroll;
+let mouse_origin;
 let is_down = false;
 
 silder.addEventListener("mousedown", (e) => {
   is_down = true;
   silder.classList.add("active");
-  start_x = e.pageX - silder.offsetLeft;
-  scroll_x = silder.scrollLeft;
+  mouse_origin = e.pageX - silder.offsetLeft;
+  silder_scroll = silder.scrollLeft;
 });
 
 silder.addEventListener("mouseleave", () => {
@@ -22,7 +22,7 @@ silder.addEventListener("mouseup", () => {
 silder.addEventListener("mousemove", (e) => {
   if (!is_down) return;
   e.preventDefault();
-  let x = e.pageX - silder.offsetLeft;
-  walk = (x - start_x) * 2;
-  silder.scrollLeft = scroll_x - walk;
+  let mouse_move_origin = e.pageX - silder.offsetLeft;
+  mouse_move = (mouse_move_origin - mouse_origin) * 2;
+  silder.scrollLeft = silder_scroll - mouse_move;
 });
