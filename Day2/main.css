@@ -34,7 +34,6 @@ html, body {
   background: #000;
   width: 100px;
   height: 10px;
-  /* transform: rotate(60deg); */
   transform-origin: 100px;
 }
 
@@ -46,7 +45,6 @@ html, body {
   background: #000;
   width: 175px;
   height: 6px;
-  /* transform: rotate(30deg); */
   transform-origin: 175px;
 }
 
@@ -57,12 +55,10 @@ html, body {
   background: red;
   width: 200px;
   height: 4px;
-  /* transform: rotate(40deg); */
   transform-origin: 200px;
 }
 
 .move_transform {
-  transform: rotate(90deg);
   transition-timing-function: linear;
-  transition: all 0.5;
+  transition: all 0.5s;
 }
